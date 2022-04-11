@@ -1,7 +1,7 @@
 mod print;
+mod vars;
 
-fn main(){
-    println!("Hello World!");
-
-    print::run();
+fn main() {
+  print::run();
+  vars::run();
 }
