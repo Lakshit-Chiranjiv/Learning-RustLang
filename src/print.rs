@@ -2,6 +2,9 @@
 pub fn run(){
     //simple printing
     println!("printing");
+
+    print!("Hello ");
+    println!("Konoha");
   
     //formatting
     println!("some number {}",7);
