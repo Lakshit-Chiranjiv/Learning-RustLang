@@ -37,7 +37,7 @@ pub fn run(){
     for i in nums.iter(){
         println!("num -> {}",i);
     }
-    println!("Printing names values")
+    println!("Printing names values");
     for i in names.iter(){
         println!("name -> {}",i);
     }
