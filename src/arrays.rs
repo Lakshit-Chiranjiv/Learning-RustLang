@@ -31,4 +31,14 @@ pub fn run(){
     println!("{:?}",num_slice1);
     println!("{:?}",num_slice2);
     println!("{:?}",names_slice);
+
+    //looping
+    println!("Printing nums values");
+    for i in nums.iter(){
+        println!("num -> {}",i);
+    }
+    println!("Printing names values")
+    for i in names.iter(){
+        println!("name -> {}",i);
+    }
 }
